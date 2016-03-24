@@ -1,0 +1,52 @@
+.info {
+  border-top: 2px solid $borderColor;
+  background-color: #ccc;
+  padding: 10px 0;
+
+  &--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  &--tag {
+    margin: 10px 3px;
+    padding: 5px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #777;
+  }
+
+  &--social i{
+    font-size: 3em;
+  }
+
+  &--author-media {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 90px;
+  }
+
+  &--author-image {
+    height: 80px;
+    width: 80px;
+    background-image: url(http://www.placecage.com/c/80/80);
+    margin: 5px;
+    border: 2px solid $borderColor;
+    border-radius: 50px;
+  }
+
+  &--author-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  &--author-desc {
+    max-width: 420px;
+  }
+}
