@@ -2,10 +2,178 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Time to Read - Assignment 15</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/styles/main.css">
   </head>
   <body>
+
+    <header class="heading">
+      <img src="http://www.placecage.com/gif/40/40" alt="" class="heading--image">
+      <div class="heading--readSpeed">
+        <div class="heading--icon heading--speed heading--selector">Read Speed:</div>
+        <div id="slow" class="heading--icon heading--speed">Slow</div>
+        <div id="normal" class="heading--icon heading--speed selected">Normal</div>
+        <div id="fast" class="heading--icon heading--speed">Fast</div>
+        <div id="genius" class="heading--icon heading--speed">Genius</div>
+      </div>
+      <div class="heading--icons ">
+        <div class="heading--icon"><i class="fa fa-search"></i></div>
+        <div class="heading--icon"><i class="fa fa-bell-o"></i></div>
+        <div class="heading--icon heading--profile"></div>
+      </div>
+    </header>
+
+    <main class="content">
+
+      <div class="content--author">
+        <img src="http://www.placecage.com/c/80/80" alt="" class="content--author-image">
+        <div class="content--author-info">
+          <div class="content--author-name">Nicholas Cage</div>
+          <div class="content--article-info">2 days ago &middot; </div>
+        </div>
+      </div>
+
+      <div class="content--hero"></div>
+
+      <div class="content--title">
+        <h1 class="content--article-title">
+          This is the Title of the Article
+        </h1>
+        <h2 class="content--article-author">By Some Guy</h2>
+      </div>
+
+      <div class="content--article">
+        <p class="content--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Repellendus dolore, ut soluta laudantium perferendis nesciunt, ullam assumenda quo, eaque ducimus est dolorum quam. Alias incidunt perferendis id eos unde! Eum.</p>
+
+        <p class="content--paragraph"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</em></p>
+      </div>
+
+    </main>
+
+    <footer class="info">
+
+      <div class="info--container">
+
+        <div class="info--tags">
+          <div class="info--tag">Irrelevant</div>
+          <div class="info--tag">No one cares!</div>
+          <div class="info--tag">Stuff Here</div>
+        </div>
+
+        <div class="info--social">
+          <i class="fa fa-facebook-official"></i>
+          <i class="fa fa-twitter-square"></i>
+          <i class="fa fa-rss-square"></i>
+          <i class="fa fa-share-alt-square"></i>
+        </div>
+      </div>
+
+      <div class="info--author-media">
+        <div class="info--author-image"></div>
+        <div class="info--author-info">
+          <div class="info--author-name">Nick Cage</div>
+          <div class="info--author-desc">I'm a complete maniac.  I mean have you ever seen any of my movies.  Do you even know what's going on in any of them?</div>
+        </div>
+      </div>
+
+    </footer>
+
     <script src="/js/app.js" charset="utf-8"></script>
   </body>
 </html>

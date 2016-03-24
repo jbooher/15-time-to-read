@@ -1,0 +1,72 @@
+.content {
+  background-color: #fff;
+  margin-bottom: 30px;
+
+  &--author {
+    width: 20%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+  }
+
+  &--author-name {
+    color: #B5DECC;
+  }
+
+  &--author-image {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border: 2px solid $borderColor;
+    border-radius: 50px;
+  }
+
+  &--hero {
+    margin: 20px 0;
+    height: 400px;
+    background-image: url(http://www.placecage.com/c/1500/400);
+    background-size: cover;
+  }
+
+  &--title {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  &--article-title {
+    color: #555;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  &--article-author {
+    color: $borderColor;
+    margin: 0;
+  }
+
+  &--article {
+    color: $borderColor;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  &--paragraph {
+    font-size: 1.5em;
+  }
+
+  &--paragraph strong {
+    color: #555;
+  }
+
+  &--paragraph:nth-child(5n+1):first-letter {
+    color: #555;
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-weight: bold;
+  }
+
+}

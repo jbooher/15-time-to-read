@@ -1,0 +1,56 @@
+.heading {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 0;
+  padding: 5px;
+  border-bottom: 2px solid $borderColor;
+  background-color: #ccc;
+  z-index: 5;
+
+  &--image {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border: 2px solid $borderColor;
+    border-radius: 5px;
+  }
+
+  &--icons {
+    position: relative;
+  }
+
+  &--icon {
+    margin: 5px;
+    vertical-align: bottom;
+    display: inline-block;
+    color: $borderColor;
+    font-size: 1.75em;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid $borderColor;
+    border-radius: 50px;
+  }
+
+  &--profile {
+    background-image: url(http://www.placecage.com/c/40/40);
+  }
+
+  &--selector {
+    background-color: #eee;
+    border: none;
+    padding-top: 2px;
+    height: 38px;
+  }
+
+  &--speed {
+    width: auto;
+    padding: 0 5px;
+  }
+
+ .selected {
+   background-color: #eee; 
+ }
+}

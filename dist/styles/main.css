@@ -1,0 +1,128 @@
+.heading {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 0;
+  padding: 5px;
+  border-bottom: 2px solid #777;
+  background-color: #ccc;
+  z-index: 5; }
+  .heading--image {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border: 2px solid #777;
+    border-radius: 5px; }
+  .heading--icons {
+    position: relative; }
+  .heading--icon {
+    margin: 5px;
+    vertical-align: bottom;
+    display: inline-block;
+    color: #777;
+    font-size: 1.75em;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #777;
+    border-radius: 50px; }
+  .heading--profile {
+    background-image: url(http://www.placecage.com/c/40/40); }
+  .heading--selector {
+    background-color: #eee;
+    border: none;
+    padding-top: 2px;
+    height: 38px; }
+  .heading--speed {
+    width: auto;
+    padding: 0 5px; }
+  .heading .selected {
+    background-color: #eee; }
+
+.content {
+  background-color: #fff;
+  margin-bottom: 30px; }
+  .content--author {
+    width: 20%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center; }
+  .content--author-name {
+    color: #B5DECC; }
+  .content--author-image {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border: 2px solid #777;
+    border-radius: 50px; }
+  .content--hero {
+    margin: 20px 0;
+    height: 400px;
+    background-image: url(http://www.placecage.com/c/1500/400);
+    background-size: cover; }
+  .content--title {
+    width: 90%;
+    margin: 40px auto; }
+  .content--article-title {
+    color: #555;
+    margin: 0;
+    margin-top: 10px; }
+  .content--article-author {
+    color: #777;
+    margin: 0; }
+  .content--article {
+    color: #777;
+    width: 90%;
+    margin: 20px auto; }
+  .content--paragraph {
+    font-size: 1.5em; }
+  .content--paragraph strong {
+    color: #555; }
+  .content--paragraph:nth-child(5n+1):first-letter {
+    color: #555;
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-weight: bold; }
+
+.info {
+  border-top: 2px solid #777;
+  background-color: #ccc;
+  padding: 10px 0; }
+  .info--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto; }
+  .info--tag {
+    margin: 10px 3px;
+    padding: 5px;
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #777; }
+  .info--social i {
+    font-size: 3em; }
+  .info--author-media {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 90px; }
+  .info--author-image {
+    height: 80px;
+    width: 80px;
+    background-image: url(http://www.placecage.com/c/80/80);
+    margin: 5px;
+    border: 2px solid #777;
+    border-radius: 50px; }
+  .info--author-name {
+    font-size: 1.2em;
+    font-weight: bold; }
+  .info--author-desc {
+    max-width: 420px; }

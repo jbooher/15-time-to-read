@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
+var sass = require('gulp-sass');
 var rimraf = require('rimraf');
 
 var browserify = require('browserify');
@@ -25,9 +26,9 @@ gulp.task('clean', function () {
 });
 
 gulp.task('sass', function () {
-	return gulp.src(['app/styles/**/*.scss', 'app/styles/**/*.css'])
+	return gulp.src(['app/styles/main.scss', 'app/styles/**/*.css'])
 		.pipe(plugins.concat('main.css'))
-		.pipe(plugins.sass())
+		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest('./dist/styles'))
     .pipe(browserSync.reload({
       stream: true
